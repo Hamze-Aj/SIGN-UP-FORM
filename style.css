@@ -2,10 +2,14 @@
     font-family: 'Norse';
     src: url('Norse-Bold.otf');
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0;
-   display: flex;
+    display: flex;
 }
 
 
@@ -18,7 +22,7 @@ body {
    min-width: 66vh;
 }
 
-.form {
+.container {
     flex-grow: 1;
     flex-shrink: 0;
     min-width: 100vh;
@@ -64,8 +68,72 @@ img {
 
 }
 
-.little {
-    background-color: white;
-    height: 160px;
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 35px;
+    padding: 10px 30PX;
+
+}
+.wrap{
+    display: flex;
+    gap: 50px;
 }
 
+.one{
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+input {
+    width: 160px;
+    height: 18px;
+    border: solid  #E5E7EB;
+    border-radius: 3px;
+}
+
+label {
+    font-size: smaller;
+    font-weight: bold;
+    font-size: xx-small;
+}
+
+button {
+    font-size:xx-small;
+    margin:25px 30px;
+    width: 150px;
+    height: 30px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+ #qasab{
+    margin: 0 30px;
+    font-size: small;
+
+}
+
+#green{
+    color: green;
+    font-weight: bolder;
+}
+
+#toch {
+    margin-top: 25px;
+}
